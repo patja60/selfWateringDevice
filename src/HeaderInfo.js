@@ -46,7 +46,7 @@ export default class HeaderInfo extends Component {
   }
 
   fetchWeather() {
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=Bangkok&APPID=4efbac71fc7a2b3418b7862460b1c041')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=Bangkok&APPID=4efbac71fc7a2b3418b7862460b1c041')
     .then(response => {return response.json()})
     .then(data => {
       console.log(data)

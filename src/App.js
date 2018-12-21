@@ -25,9 +25,8 @@ class App extends Component {
       <div className="App">
         <body>
           <div class="wrapper">
-            <SideBar />
 
-            <div class="main-panel">
+            <div class="">
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
                         <div class="navbar-header">
